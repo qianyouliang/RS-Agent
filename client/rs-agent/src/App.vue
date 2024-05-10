@@ -1,20 +1,22 @@
- <script setup>
- import HelloWorld from './components/HelloWorld.vue'
- </script>
-
- <template>
-   <div>
-     <a href="https://vitejs.dev" target="_blank">
-       <img src="/vite.svg" class="logo" alt="Vite logo" />
-     </a>
-     <a href="https://vuejs.org/" target="_blank">
-       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-     </a>
-   </div>
-   <HelloWorld msg="Vite + Vue" />
+<!--
+ * 
+ * @author: GISer Liu
+ * @email: qianyouliang123@gmail.com
+ * @since: 2024-05-10
+ * 
+-->
+<template>
+  <div class="container">
+    <router-view></router-view>
+  </div>
 </template>
 
-<style scoped lang="less">
+<script setup>
+</script>
 
-
+<style lang="scss" scoped>
+.container {
+  width: 100%;
+  height: 100%;
+}
 </style>
