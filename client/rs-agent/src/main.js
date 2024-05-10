@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import { createRouter, createWebHistory } from 'vue-router'
 import Antd from 'ant-design-vue'
-import 'ant-design-vue/dist/antd.css'
+import 'ant-design-vue/dist/reset.css';
 import Cesium from 'cesium'
 import * as d3 from 'd3'
 import * as echarts from 'echarts'
